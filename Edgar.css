@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -88,9 +89,9 @@ body {
 }
 
 .btn {
-    flex: 1;
     max-width: 120px;
     padding: 7px 16px;
+    margin:5px ;
     border-radius: 20px;
     border: 2px solid #c95757;
     font-size: 14px;
@@ -219,7 +220,6 @@ footer {
         align-items: center;
         height: 70px;
         padding: 10px 50px;
-        gap: 0;
     }
     #nav-menu {
         gap: 35px;
